@@ -31,3 +31,24 @@ you can set your your es version in `esversion` incase your using it else set it
 checkout the official documentation [JSHint/docs](http://jshint.com/docs/)
 
 ##### JSCS
+
+Okay now that you're done with jshint, let's make your ugly a** code look less f\*\*\*ed up.
+here is a brief introduction to JSCS
+
+> - JSCS has built-in presets to check your code against. Or you can create your own and share them as npm packages
+> - You can lint es6/7 and jsx
+
+okay now let's get to the fun part, install the ide extension (if available), and run this command:
+
+`npm i --save-dev jscs`
+
+now add the configuration file , you can have jscs to add an standard config or you can set up your own (mine is better tho)
+clone this repo and copy the `.jscsrc` to your project folder and your good to go.
+
+#####Note That JSCS easily becomes a pain in the ass if you do not set it up properly
+
+You can check the documentation for the rules and presets [JSCSs/rules](http://jscs.info/rules)
+
+Congratulations Your code is now human-readble :)) go buy your self a drink big fella.
+
+and dr.Akbari if you're reading this , it was a joke don't take it personal :)))
