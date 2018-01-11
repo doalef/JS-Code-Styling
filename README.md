@@ -20,4 +20,5 @@ first of all set up your working enviorment if you have VSC or some other ide's 
 it will make life much more easier.
 
 okay now that you have installed the extension let's set up jshint , first run the command:
+
 `npm i --save-dev jshint`
