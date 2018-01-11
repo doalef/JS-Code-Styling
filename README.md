@@ -22,3 +22,9 @@ it will make life much more easier.
 okay now that you have installed the extension let's set up jshint , first run the command:
 
 `npm i --save-dev jshint`
+
+next step is to create a `.jshintrc` file with your own configuration or clone it from here and copy it to your project (recomended for fat and lazy or short on time programmers)
+
+but before you start note that you should change the config to fit into your project otherwise it shits all over ide logs.
+
+you can set your your es version in `esversion` incase your using it else set it to false.
