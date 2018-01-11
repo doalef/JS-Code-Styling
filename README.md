@@ -6,7 +6,7 @@ Let's bring some beauty to your messed up project :))
 so most javascript developers know about jsint , jscs and eslint
 but in case you live in a cave or something here's a summary:
 
-> **JSHINT:**
+##### JSHint
 
 > - JSHint is a community-driven tool that detects errors and potential problems in JavaScript code.
 > - JSHint is open source and it will stay that way according to their website.
@@ -28,3 +28,6 @@ next step is to create a `.jshintrc` file with your own configuration or clone i
 but before you start note that you should change the config to fit into your project otherwise it shits all over ide logs.
 
 you can set your your es version in `esversion` incase your using it else set it to false.
+checkout the official documentation [JSHint/docs](http://jshint.com/docs/)
+
+##### JSCS
